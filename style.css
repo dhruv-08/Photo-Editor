@@ -1,0 +1,144 @@
+    .main-0 {
+        border: 1px solid;
+        width: 400px;
+        height: 100%;
+        background-color: rgb(48, 45, 45);
+        border-radius: 20px;
+    }
+    
+    body {
+        background-color: rgb(31, 30, 30);
+        position: relative;
+    }
+    
+    .content {
+        position: absolute;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1;
+        padding: 10px;
+    }
+    
+    .content-0 {
+        position: absolute;
+        color: white;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2;
+        padding: 10px;
+    }
+    
+    .box1 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        left: 20px;
+    }
+    
+    .box2 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        left: 140px;
+    }
+    
+    .box3 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        left: 260px;
+    }
+    
+    .box4 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        left: 20px;
+        top: 480px;
+    }
+    
+    .box5 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        left: 140px;
+        top: 480px;
+    }
+    
+    .box6 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        left: 260px;
+        top: 480px;
+    }
+    
+    .bn1 {
+        position: absolute;
+        top: 650px;
+        left: 10px;
+        border-radius: 12px;
+    }
+    
+    .bn2 {
+        position: absolute;
+        top: 650px;
+        left: 140px;
+        border-radius: 12px;
+    }
+    
+    .bn3 {
+        position: absolute;
+        top: 650px;
+        left: 280px;
+        border-radius: 12px;
+    }
+    
+    .image {
+        position: absolute;
+        left: 30%;
+        bottom: 90%;
+        width: 100%;
+        float: left;
+        color: white;
+    }
+    
+    .img {
+        position: absolute;
+        left: 30%;
+        width: 1000px;
+        height: 600px;
+        bottom: 7%;
+        overflow: hidden;
+    }
+    
+    #output1 {
+        filter: grayscale(100%) contrast(200%);
+    }
+    
+    #output2 {
+        filter: hue-rotate(90deg);
+    }
+    
+    #output3 {
+        filter: invert(100%);
+    }
+    
+    #output4 {
+        filter: saturate(8);
+    }
+    
+    #output5 {
+        filter: sepia(100%);
+    }
+    
+    #output6 {
+        filter: contrast(200%) brightness(150%);
+    }

@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <title>Photo-Editor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="logo.png" type="png">
+</head>
+
+<body>
+    <div class="main-0">
+        <span class="content-0">filter:</span><br><br>
+        <span class="content">Brightness:</span><input type="range" min="100" max="200" value="0" style="width:15%;position: absolute;padding: 10px;left:8%" class="range1" oninput="bright(this.value)"><br><br>
+        <span class="content">contrast:</span><input type="range" min="100" max="200" value="0" style="width:15%;position: absolute;padding: 10px;left:8%" class="range2" oninput="f2(this.value)"><br><br>
+        <span class="content">saturate:</span><input type="range" min="1" max="100" value="0" style="width:15%;position: absolute;padding: 10px;left:8%" class="range3" oninput="f3(this.value)"><br><br>
+        <span class="content">Zoom-In:</span><input type="range" min="10" max="100" value="0" style="width:15%;position: absolute;padding: 10px;left:8%" class="range4" oninput="f4(this.value)"><br><br>
+        <span class="content">Black-White:</span><input type="range" min="1" max="100" value="0" style="width:15%;position: absolute;padding: 10px;left:8%" class="range5" oninput="f5(this.value)"><br><br>
+        <span class="content">Zoom-Out:</span><input type="range" min="1" max="100" value="0" style="width:15%;position: absolute;padding: 10px;left:8%" class="range6" oninput="f6(this.value)"><br><br>
+        <span class="content-0">effects:</span><br><br><br>
+        <div class="box1"><img src="" id='output1'></div>
+        <div class="box2"> <img src="" id='output2'></div>
+        <div class="box3"> <img src="" id='output3'></div>
+        <div class="box4"> <img src="" id='output4'></div><br><br><br>
+        <div class="box5"> <img src="" id='output5'></div>
+        <div class="box6"> <img src="" id='output6'></div><br><br>
+        <button type="button" class="btn btn-default btn-sm bn1" id="b1">
+            <span class="glyphicon glyphicon-repeat"></span> Rotate-left
+          </button>
+        <button type="button" class="btn btn-default btn-sm bn2">
+            <span class="glyphicon glyphicon-repeat"></span> Rotate-right
+          </button>
+        <button type="button" class="btn btn-default btn-sm bn3">
+            <span class="glyphicon glyphicon-fullscreen"></span> Original
+          </button>
+        <input type='file' class="image btn btn-danger" style="width: 1000px;">
+        <div class="img">
+            <img src="" id='output'>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
